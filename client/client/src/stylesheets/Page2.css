@@ -1,0 +1,98 @@
+#pop {
+  width: 30vw;
+  height: 100%;
+  /* box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3); */
+  background-color: #ffff;
+  border-radius: 10px;
+  padding-top: 1em;
+  /* display: none; */
+  margin: 3em auto;
+}
+.Heading {
+  display: inline;
+  align-items: center;
+  color: #4b4b4b;
+}
+#arrow {
+  color: #3a52a1;
+}
+#arrow:hover {
+  transform: rotate(-90deg);
+  transition: transform 0.5s;
+}
+.Heading > h2 {
+  display: inline-block;
+  width: 70%;
+}
+.Heading > button {
+  background-color: white;
+  border: none;
+  width: 4%;
+  display: inline-block;
+  color: black;
+  font-weight: lighter;
+}
+.Heading > button:hover {
+  transform: rotate(360deg);
+  transition: transform 1.5s;
+}
+#cell1,
+#cell2 {
+  border: 1px solid #e0e0e0;
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+  display: inline-block;
+}
+#cell3 {
+  border: 1px solid black;
+  width: 80%;
+  border-radius: 5px;
+}
+#cell2 {
+  margin-top: 1em;
+}
+#cell2 > h5 {
+  float: left;
+  padding-left: 3em;
+}
+#cell1 {
+  border: 1px solid #2955e4;
+}
+#cell1 > span > img,
+#cell2 > span > img {
+  width: 4em;
+}
+#Ver2 {
+  visibility: hidden;
+}
+#cell1 > span,
+#cell2 > span {
+  display: inline-block;
+  width: 20%;
+  /* margin: 0 auto; */
+  vertical-align: middle;
+}
+#cell1 > p,
+#cell2 > p {
+  font-size: 0.9em;
+  width: 72%;
+  color: #797e8b;
+
+  display: inline-block;
+  /* padding-left: 3em; */
+}
+#cell2 > h5 {
+  color: #797e8b;
+  font-weight: 400;
+  font-size: 0.9em;
+}
+.button {
+  background-color: #2955e4;
+  color: white;
+  border: none;
+  padding: 1em 3em;
+  margin: 1em 0em 2em 0em;
+  border-radius: 5px;
+  box-shadow: 0 8px 6px -6px #888888;
+}
